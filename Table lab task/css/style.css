@@ -1,0 +1,56 @@
+body
+{
+    font-family: Verdana;
+}
+
+table
+{
+    border:1px solid black;
+    background-color:#EEEEEE;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+.image
+{
+    text-align: center;
+}
+
+.image th:nth-child(2)
+{
+    font-size:32px;
+}
+
+.image td:nth-child(3)
+{
+    font-family: courier;  
+    font-size:11px;
+}
+
+th[rowspan="6"]
+{    
+    font-size:21px;
+}
+
+td
+{     
+    border:1px solid black; 
+}
+
+td[colspan="21"]
+{
+    display: inline-table;
+}
+
+th
+{
+    border:1px solid black;
+    text-align: center;  
+}
+
+img
+{
+    width:100px;
+    height: 100px;
+}

@@ -1,0 +1,134 @@
+body
+{
+    background-color:#d4d4d4;
+    font-family:calibri;
+    margin:0;
+}
+
+.logo
+{
+    width:100%;
+    background-color: white;
+    height:74px;
+    text-align:center;
+}
+
+.logo img
+{
+    height:auto;
+    width:22%;
+}
+
+.menu
+{
+    height:55px;
+    background-color: black;   
+}
+
+.list 
+{
+    margin:0;
+    padding:1px;
+    list-style-type:none;
+}
+
+.list li:nth-child(7)
+{
+    float:right;
+    margin-right:90px;
+}
+
+.list a
+{
+    color:white;
+    text-decoration:none;
+}
+
+a[href="https://accounts.google.com/ServiceLogin"]
+{
+    margin-right:15px;   
+}
+
+a[href="https://wordpress.com/log-in"],[href="https://accounts.google.com/ServiceLogin"]
+{
+    padding-top:15px;
+}
+
+li 
+{
+    float:left; 
+    padding:15px 0;
+    color:white;
+    margin:0 -100px 0 112px;
+}
+
+img
+{
+    background-color:white;
+}
+
+img[alt="cart"]
+{
+    background-color: black;
+    width:16px;
+    height:auto;
+    float:right;
+    margin:4px 10px;
+}
+
+.nav
+{
+    height:90px;
+    background-color: white; 
+    color:black;
+}
+
+.down
+{
+    margin:0;
+    padding:37px 180px;
+    list-style-type:none;
+}
+
+.down a
+{
+    color:black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.down li
+{
+    padding:15px 17px;
+}
+
+img[alt="search"]
+{
+    margin:0 0 -4px 0;
+    padding: 0 7px;
+}
+
+hr
+{
+    border:2px solid black;
+    margin:0;
+}
+
+img[alt="girl"]
+{
+    width:1349px;
+    height:auto;
+}
+
+.center a
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+}
