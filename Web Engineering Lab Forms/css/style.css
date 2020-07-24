@@ -1,0 +1,48 @@
+body
+{
+    margin: 10px 200px 10px 200px; 
+    font-family: sans-serif; 
+    font-size: 16px;
+}
+
+form
+{
+    background-color: #F2F6F8;
+    border: 1px solid #D7D7D7;
+    padding: 15px;
+    margin-top: 55px;
+}
+
+input,select
+{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #DFE2E6;
+}
+
+input[type = "search"]
+{
+    width: 96%;
+}
+
+p
+{
+   // color: #B4AC9C;
+}
+
+input[type = "submit"]
+{
+    background: #F36134;
+    margin:auto;
+    width:30%;
+    display: block;
+    border-radius: 0;
+    color:white;
+    margin-top: 15px;
+}
+
+option:first-child
+{
+    color: grey;
+}
+

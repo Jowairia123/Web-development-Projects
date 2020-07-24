@@ -1,0 +1,148 @@
+body
+{
+    font-family:calibri;
+}
+
+header
+{
+    margin:0 -8px;
+    height: 100px;
+}
+
+header nav
+{
+    height:30px;
+    margin:-16px 0;
+}
+
+header nav ul
+{
+    margin-right: 125px;
+}
+
+header nav li
+{
+    margin:5px 0;
+    float: right;
+}
+
+img[alt = "logo"]
+{
+    position: absolute;
+    top:40px;
+    left:125px;
+}
+
+nav
+{
+    margin:-15px -8px;
+}
+
+nav ul
+{
+    margin-left: 60px;
+}
+
+nav li
+{
+    margin:5px 0px;
+}
+
+nav a
+{
+    padding-left: 35px;
+}
+
+img[alt = "profile"]
+{
+    padding: 5px;
+    margin: 50px auto 0;
+    display: block; 
+}
+
+article,section,footer
+{
+    padding: 5px;
+    height: 228px;
+    margin: 0 auto 30px;
+    display: block;
+    width: 80%;
+}
+
+section
+{
+    padding-left:15px;
+    margin:-5px 0 -5px -6px;
+    height:42px;
+    width: 99%;
+}
+
+h1
+{
+    margin:0 0 15px;
+}
+
+h2
+{
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+p
+{
+    font-size: 18px;
+    padding: 0px 15px 0;
+}
+
+img[alt = "edit"],img[alt = "flag"]
+{
+    margin-right:5px;
+    position:relative;
+    top: 2px;    
+}
+
+button
+{
+    padding:5px 15px 5px 10px;
+    border-radius: 5px;
+    margin: 3px 5px;
+}
+
+article section:last-child
+{
+    height:37px;
+    width:99.1%;
+}
+
+article a
+{   
+    padding: 2px;
+}
+
+body article:nth-child(6)
+{
+    height:120px;
+    margin-bottom: 72px;
+}
+
+body article:nth-child(7)
+{
+    height:535px;
+}
+
+img[alt = "chart"]
+{
+    width: 99%;
+    height: auto;
+    margin: 15px 0;
+}
+
+footer
+{
+    height: 55px;
+}
+
+footer p
+{
+    margin: 5px;
+}

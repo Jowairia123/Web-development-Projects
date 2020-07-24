@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <form method="GET" action="action.php">             
+            <p>Email address </p>
+            <input type="email" name="fullname" size="120" placeholder="Email" data-label="Email" required/>
+                    
+            <p>Username </p>
+            <input type="text" name="username" size="120" placeholder="Username" maxlength="22" required/>
+            
+            <p>Password </p>                   
+            <input type="password" size="120" placeholder="Password" maxlength="50" required/>
+            
+            <p>Confirm Password </p>                   
+            <input type="password" size="120" placeholder="Confirm Password" required/>
+
+            <p>Register As </p>
+            <input type="search" list="city" placeholder="Client" required>
+            <datalist id="city">
+                <option>Jia</option>
+                <option>Maryam</option>
+                <option>Ali</option>
+            </datalist>
+                
+            <input type="submit" value="Register"/>
+        </form>
+    </body>
+</html>

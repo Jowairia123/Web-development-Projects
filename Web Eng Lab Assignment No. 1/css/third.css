@@ -1,0 +1,305 @@
+body
+{
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    background: white;   
+}
+
+.container-fluid
+{
+    background: #007DED !important;
+    color:white;
+}
+
+.row
+{
+    height: 40px;
+    padding:10px 0;
+    margin:0;    
+}
+
+a
+{
+    color:black;
+    margin-bottom:1px;
+}
+
+.col-lg-8
+{
+    padding-left: 0;
+}
+
+.col-lg-8 span
+{
+    font-weight:bold !important;
+    color:white !important;   
+}
+
+a[href="#account"],[href="#carts"],[href = "footer"]
+{
+    color:white;
+    text-decoration: none;
+}
+
+a[href="#account"]
+{   
+   float:right;
+}
+
+img[alt = "cart"],[alt = "account"]
+{
+    width:24px;
+    height:auto;  
+    position: relative;
+    bottom: 2px;
+}
+
+.navbar
+{
+    background-color:white !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height:84px;
+    padding-top:16px;
+    padding-right: 56px;
+}
+
+.navbar-brand
+{
+    padding-left: 24px;
+}
+
+.navbar-brand img
+{
+    width:110px;
+    height: auto;
+}
+
+.icon-bar
+{
+    background:white;
+}
+
+img[alt = "tel"]
+{
+    width: 65px !important;
+    height:auto;
+    margin-top:9px;
+}
+
+a[href = "num"]
+{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #35c35c !important;
+    position: relative;
+    right: 9px;
+    bottom:8px;
+    padding-bottom:0 !important;
+}
+
+.nav li:last-child
+{
+    line-height: 0;
+    position: relative;
+    right: 8px;
+}
+
+.nav a
+{
+   padding-left: 7px !important;
+   color:rgba(0,0,0,.75);
+   font-size: 16px;
+}
+
+.dropdown-menu
+{
+    right: auto !important;
+    left: 5px !important;
+}
+
+.dropdown-menu a
+{
+    text-align: left !important;
+    padding-left: 25px !important;
+}
+
+.dropdown-toggle:hover
+{
+    background: white !important;
+}
+
+.active:hover
+{
+    background: white !important;
+}
+
+.dropdown:hover .dropdown-menu 
+{
+    display: block !important;
+}
+
+.dropdown-menu li:last-child
+{
+    right: 0 !important;
+    padding-left: 2px !important;
+    margin-bottom: 5px !important;
+}
+
+.caret
+{
+    padding-bottom: 4px;
+}
+
+.btn
+{
+    margin-top:4px;
+    border: 1px solid #FF7900;
+    color:#FF7900;
+    width:135px;
+    height: 42px;
+    margin-right: 18px;
+}
+
+.btn:hover
+{
+    background: #FF7900;
+    color:white;
+    border: 1px solid #FF7900;
+}
+
+.list-group-item 
+{
+    color: black !important;
+    border: 0;
+    background: transparent !important;
+    font-size: 15px;
+}
+
+.list-group p
+{
+    font-size: 15px;
+    text-align: left;
+    display:inline-block;
+}
+
+p.list-group-item-text::before 
+{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #d1d3d6;
+    content: ">";
+    font-size: 17px;
+    position: static !important;
+}
+
+a[href = "#blue"],[href = "#belo"]
+{
+    color:#007ded !important;
+    font-size: 15px;
+    position: relative;
+    right: 6%; 
+    padding: 30px 15px 10px;
+}
+
+a[href = "#deco"]
+{   
+    border-top: 1px solid #d1d3d6 !important;
+    padding: 11px 0 11px 23px!important;
+}  
+
+a[href = "#bott"]
+{
+    border-bottom: 1px solid #d1d3d6 !important; 
+    padding: 5px 0 12px 23px!important;
+}
+
+a[href= "#bord"],[href = "#item"]
+{
+    position: relative;
+    right: 4%; 
+}
+
+.list-group a:hover
+{
+    color:#007ded !important;
+    text-decoration: underline !important;    
+}
+
+a[href = "#list"]
+{
+    padding: 0 0 12px 23px!important;
+}
+
+.panel
+{    
+    margin: 80px 10px !important;
+    width: 600px;
+    height:280px;
+}
+
+img[alt = "dp"]
+{
+    width: 48px;
+    height: auto;
+    vertical-align:baseline !important;
+}
+
+a[href = "#customerName"]
+{
+    font-size: 18px !important;
+    padding-left: 5px;
+    position: relative;
+    bottom: 27px;
+    color:blue;
+}
+
+.panel-body p
+{
+    text-align:left !important;
+    color: #616770;
+    font-size:13px;
+    position: relative;
+    left:55px;
+    bottom:27px;
+}
+
+h2
+{
+    color: #269abc;
+    padding:15px 50px;
+}
+
+.panel-body p:nth-last-child(3)
+{
+    padding: 5px 0 0 0;
+    font-size: 16px;
+}
+
+.panel-body button
+{
+    margin:-20px 0 55px 52px;
+    border: 1px solid #FF7900;
+    color:white;
+    width:135px;
+    height: 42px; 
+    background: linear-gradient(#FF7900,orange);
+    
+}
+
+.panel-body button:hover
+{
+    color:white;
+    border: 1px solid cyan;
+    font-weight: normal;
+}
+
+.img-responsive
+{
+    float:right;
+    width: 229px;
+    height:120px;
+    position: relative;
+    bottom:100px;
+    right:25px;
+}
+

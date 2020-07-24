@@ -1,0 +1,73 @@
+header nav,section,footer
+{
+    background: #0B223F;
+    display: block;
+}
+
+nav li 
+{   
+    list-style-type: none;   
+    display: inline-block;
+}
+
+nav
+{
+    background:#DBE3EC; 
+}
+
+nav a
+{
+    color:#32A4C2;   
+}
+
+header,section:first-child
+{
+    background: url("../img/header-background.png");
+    color:white;
+}
+
+img[alt = "profile"]
+{
+    border: 1px solid #C9CAC8;
+}
+
+article,section
+{
+    border: 1px solid #0B223F;
+}
+
+h1
+{
+    text-align: center;
+}
+
+cite
+{
+    color:#97A6B8;
+    font-size: 18px;
+}
+
+button,article a
+{
+    color:#32A4C2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a
+{
+    color:#32A4C2;
+}
+
+small
+{
+    color: pink;
+}
+
+em
+{
+    color: white;
+}
+
+
+
