@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meeting Room Reservation Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <h1>A meeting room reservation form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Your name:<span> * </span>            
+                        <input type="text" name="name" size="42" required>                
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="c"> 
+                        Your email address:<span> * </span>            
+                        <input type="text" name="name" size="42" required>                
+                    </td>  
+                </tr>
+                
+                <tr>
+                   <td>Department:<span> * </span>
+                       <select name="departments" required>           
+                           <option value=""> - select -</option>
+                           <option value="ee">ee</option>
+                           <option value="bba">bba</option>
+                       </select>
+                   </td> 
+                </tr> 
+                
+                <tr>
+                    <td class="c">Which room would you like to reserve:<span> * </span>
+                        <input type="radio" name="room" value="roomA" required><span class="f">  Room A </span>
+                        <ul>
+                            <li><input type="radio" name="room" value="roomB" form="form1" required> Room B</li>               
+                            <li><input type="radio" name="room" value="roomC" form="form1" required> Room C</li>  
+                        </ul>
+                    </td>
+                </tr> 
+                
+                <tr>
+                    <td>Extra requirements:
+                        <input type="checkbox" name="pens" value="charts"><span class="f"> Flipchart and pens </span>
+                        <ul class="a">
+                            <li><input type="checkbox" name="screen" value="lcd" form="form1"> Plasma TV screen</li>               
+                            <li><input type="checkbox" name="drinks" value="tea" form="form1"> Coffee, tea and mineral water</li>  
+                        </ul>
+                    </td>
+                </tr>   
+                
+                <tr>
+                    <td class="c">Reservation date:<span> * </span>
+                        <input type="date" name="bday" required>
+                        <img src="img/calender.PNG" alt=""/>
+                        <ul class="caption">
+                            <li><span class="g">&#x25B8</span> Date format is MM /DD /YYYY</li>
+                        </ul>
+                    </td>                    
+                </tr> 
+                
+                <tr>
+                    <td>Reservation time:
+                        <select name="time">           
+                            <option value="am">09</option>
+                            <option value="am">10</option>
+                            <option value="am">11</option>
+                        </select>
+                        
+                        <select name="second">           
+                            <option value="am">00</option>                          
+                        </select>
+                   </td> 
+                </tr> 
+                
+                <tr><td class="s"><input type="submit" value="Submit"></td></tr>                    
+            </table>            
+        </form>      
+    </body>
+</html>
+ 

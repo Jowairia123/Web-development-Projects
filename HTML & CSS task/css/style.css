@@ -1,0 +1,69 @@
+body
+{
+    background: white;
+}
+
+h1
+{
+    text-align: center;
+    color: #004E63;
+    margin-top: -40px;
+}
+
+hr
+{
+    border: 2px solid #00BEB3;
+}
+
+.first
+{
+    color: #00BEB3; 
+}
+
+.first td
+{
+   padding: 6px 15px;  
+   position: relative;
+   left: 90%;
+}
+
+.first td:first-child
+{
+    color:#004E63;
+}
+
+li
+{
+    color:#004E63;
+    padding: 3px;
+}
+
+th
+{
+    font-size: 25px;
+    color:#00BEB3;
+    padding-bottom: 5px;
+}
+
+p,a
+{
+    padding:0 15px;
+    color:#004E63;
+    text-align:justify;
+}
+
+a
+{
+    color:#004E63;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+img
+{
+    width: 55px;
+    height:auto;
+    position: relative;
+    top:11px;
+    left:265px;
+}

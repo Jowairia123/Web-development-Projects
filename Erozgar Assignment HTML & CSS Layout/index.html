@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Navbar -->
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#news">BAND</a></li>
+        <li><a href="#news">TOUR</a></li>
+        <li><a href="#news">CONTACT</a></li>        
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">MORE<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="#">Merchandise</a>
+                <a href="#">Extras</a>
+                <a href="#">Media</a>
+            </div>
+        </li>
+        <li><a href="#"><i class="fa fa-search"></i></a></li>
+    </ul>
+<!-- Slider/ Carousel -->
+    <div id="demo" class="carousel slide" data-ride="carousel">        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/la.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="img/ny.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="img/chicago.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago - A night we won't forget.</p>
+              </div>   
+            </div>         
+        </div>       
+    </div>
+
+<!-- Band -->
+    <div id="band">
+        <h2>THE BAND</h2>
+        <p><i>We love music</i></p>
+        <p>We have created a fictional band website. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+            commodo consequat.
+        </p>
+    </div>
+    <div id="images">
+        <div>
+          <p>Name</p>
+          <img src="img/bandmember.jpg" alt="Random Name">
+        </div>
+        <div>
+          <p>Name</p>
+          <img src="img/bandmember.jpg" alt="Random Name">
+        </div>
+        <div>
+          <p>Name</p>
+          <img src="img/bandmember.jpg" alt="Random Name">
+        </div>
+    </div>
+
+  <!-- The Tour Section -->
+    <div id="tour">
+        <div>
+            <div>
+                <h2>TOUR DATES</h2>
+                <p><i>Remember to book your tickets!</i></p><br>
+
+                <table>
+                    <tr><td>September<span class="badge badge-danger">Sold out</span></td></tr>
+                    <tr><td>October<span class="badge badge-danger">Sold out</span></td></tr>
+                    <tr><td>November<span class="badge">4</span></td></tr>
+                </table>
+            </div>
+                <div id="cardviews">
+                    <div>
+                        <img src="img/newyork.jpg" alt="New York" />
+                        <div>
+                            <p><b>New York</b></p>
+                            <p><span class="date">Fri 27 Nov 2016</span></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/paris.jpg" alt="New York" />
+                        <div>
+                          <p><b>Paris</b></p>
+                          <p><span class="date">Sat 28 Nov 2016</span></p>
+                          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                          <button onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/sanfran.jpg" alt="New York" />
+                        <div>
+                            <p><b>San Francisco</b></p>
+                            <p><span class="date">Sun 29 Nov 2016</span></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+  
+ <!-- The Contact Section -->
+    <div id="contact">
+        <h2>CONTACT</h2>
+            <p><i>Fan? Drop a note!</i></p>
+            <div>
+                <div>
+                    <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+                </div>
+                <div>
+                    <form action="/action_page.php" target="_blank">
+                        <div style="margin:0 -16px 8px -16px">
+                            <div>
+                                <input type="text" placeholder="Name" required name="Name">                                                   
+                                <input type="text" placeholder="Email" required name="Email">
+                            </div>
+                         </div>
+                        <input type="text" placeholder="Message" required name="Message">
+                        <br>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <img src="img/map.jpg" alt="map"/>
+        
+    <!-- Footer -->
+        <footer>
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
+    </body>
+</html>
