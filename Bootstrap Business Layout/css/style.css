@@ -1,0 +1,76 @@
+.container-fluid
+{
+   padding-left:0;
+   padding-right: 0;
+   background: url("../img/header.jpg") no-repeat;
+   background-size:auto;
+   height:635px;
+}
+
+body
+{    
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;   
+}
+
+.navbar-brand
+{
+    letter-spacing:12px;
+    color:#F8E3D6;
+    font-size:20px;
+    margin-left:0 !important;
+    font-weight:bold;   
+}
+
+.active
+{
+    color:#9BBF39;   
+}
+
+a:hover
+{
+    color:white;
+    background-color: transparent !important;
+}
+
+a
+{
+    color:#E2D5CE;
+    font-size:17px;
+}
+
+span
+{
+    color:#F8E3D6;
+}
+
+h1,p
+{
+    color:white;
+    text-align: center;
+    position:relative;
+    top:130px;
+    right:1px;    
+    font-size:7em;  
+}
+
+p
+{
+    font-size:1.3em; 
+    top:145px;
+}
+
+.btn-success
+{
+    color:white !important;
+    padding:15px 0 13px 2px !important;
+    width:185px !important;
+    border:0 !important;
+    border-radius: 30px !important;
+    background-color:#9ACD32 !important;
+    font-size: 18px;
+    position:relative;
+    top:170px;
+    left:42%; 
+    //margin:auto !important;
+}
+
