@@ -1,0 +1,271 @@
+body
+{
+    background: url("../img/wood.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container
+{
+    margin-top: 100px;
+}
+
+.profile
+{
+   background: #FACA0C;
+   padding:30px 40px 0px 0px;
+   height: 230px;
+}
+
+.profile:before
+{
+    content: '';
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    width: 0;
+    height: 0;
+    border: 35px solid transparent;
+    border-top: 29px solid #FEC907;
+    z-index: 999;
+}
+
+.col-lg-8 p
+{
+    color: white;
+    font-size: 17px;
+    padding: 0 15px 0 40px;
+    text-align: justify;
+}
+
+img[alt = "dp"]
+{
+    margin-left: 46px;
+    margin-top: 5px;
+}
+
+.profile h2,h3
+{
+    padding-top: 25px;
+    float: right;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.profile h3
+{
+    position: relative;
+    bottom:120px;
+    right: 58px;
+}
+
+.col-lg-8
+{
+    background: #58575C;
+    height: 230px;
+}
+
+.col-lg-8 h2
+{
+    color: white;
+    padding: 15px 0 0 40px; 
+}
+
+.expo 
+{
+    background: #E7E6EB;
+    position: relative;
+    bottom: 100px;
+    padding-bottom: 75px;
+}
+
+.expo:before
+{
+    content: '';
+    position: absolute;
+    left: 160px;
+    bottom:-64px;
+    width: 0;
+    height: 0;
+    border: 35px solid transparent;
+    border-top: 29px solid #E7E6EB;
+    z-index: 999;
+}
+
+img[alt="skills"],img[alt="language"],img[alt = "bag"],img[alt = "cap"],img[alt = "victory"]
+{
+    width: 60px;
+    height:auto;
+    margin: 37px 0 0 20px;
+}
+
+img[alt="language"],img[alt = "bag"],img[alt = "cap"],img[alt = "victory"]
+{
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 38px;
+}
+
+img[alt = "bag"],img[alt = "cap"]
+{
+    margin-left: 45px;
+}
+
+img[alt = "victory"]
+{
+    margin-left: 53px;
+}
+
+.expo h3
+{   
+    float: right;
+    font-weight: bold;
+    color: #5B5A5F;
+    padding: 35px 15px 25px 0;
+    letter-spacing: -2px;
+}
+
+.expo h4
+{
+    padding-left: 145px;
+    font-weight: bold !important;
+    color: #5B5A5F;
+    padding-top: 30px;
+    //text-align: center;
+}
+
+.progress
+{
+    background:#5B5A5F;
+    height: 13px;
+    border-radius: 0;
+    margin: 0 20px;
+}
+
+.progress-bar
+{
+    background: #FEC907;
+}
+
+#head
+{
+    padding:55px 105px 35px 0;
+}
+
+.info
+{
+    width:389px;
+    height: 279px;
+    background: #58575C;
+    margin: -379px 0px 0px -14px;
+}
+
+.info h4
+{
+    color:#DDDDDF;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 75px;
+}
+
+.info h4:nth-child(2),h4:nth-child(3),h4:last-child
+{
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.detail
+{
+    background: white;
+    position: relative;
+    bottom: 100px;
+    padding-bottom: 55px;
+    height: 100% !important;
+    margin-bottom: -100px;
+}
+
+.detail h3
+{
+    padding: 38px 260px 0 0;
+    color: #4C4C4C;
+}
+
+.c
+{
+    color:white;
+    background: grey;
+    width: 136px;
+    height: 34px;
+    margin: 25px 15px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    padding:5px 0px  0 20px;
+}
+
+.date:after
+{
+    content: "";
+    position: absolute;
+    left: 131px;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid grey;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    z-index: 555;
+  }
+  
+.strip
+{
+    background: #E7E6EB;
+    width: 582px;
+    height: 34px;
+    margin: -29px 116px 35px;
+    font-size: 19px;
+    font-weight: bold;
+    padding:5px 0 0px 35px;
+    color:#4C4C4C;
+ }
+
+.detail h3:nth-child(4),h3:nth-child(7),h3:nth-child(10),h3:nth-child(15),h3:nth-child(18)
+{
+    padding:5px 375px 0 0;
+    margin-top: 0px;
+}
+
+.detail h3:nth-child(15),h3:nth-child(18)
+{
+    padding:15px 412px 0 0;
+    margin-top: 0 !important;
+}
+  
+.detail h3:nth-child(13)
+{
+    padding:30px 352px 0px 0;
+}
+
+.detail h3:nth-child(21)
+{
+    margin: 15px 39px 0 0;
+}
+
+.detail p:nth-child(5),p:nth-child(8),p:nth-child(11),p:nth-child(16),p:nth-child(19)
+{
+    color:#7C7C7C;
+    padding: 28px 18px 0 191px;
+    font-size: 18px;
+}
+
+.detail p:nth-child(16),p:nth-child(19)
+{
+    padding-left: 200px;
+}
+
+.detail p:nth-child(22),p:nth-child(23),p:nth-child(24)
+{
+    color:#7C7C7C;
+    padding: 15px 18px 0 191px;
+    font-size: 18px;
+}
+
