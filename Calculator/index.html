@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>        
+    </head>    
+    <body>
+        <div class="main">
+            <img src="img/cal icon.PNG" alt="icon"/>
+            <span>Calculator</span>
+            <img src="img/minimize.PNG" alt="window size"/>                    
+        </div>
+        <div class="panel">
+            <img src="img/menu bar.PNG" alt="menu bar"/>            
+            <input readonly="readonly">
+                <button onclick="add(this)">1</button>
+                <button onclick="add(this)">2</button>
+                <button onclick="add(this)">3</button>
+                <button onclick="add(this)">4</button>
+                <button onclick="add(this)">5</button>
+                <button onclick="add(this)">6</button>
+                <button onclick="add(this)">7</button>
+                <button onclick="add(this)">8</button>
+                <button onclick="add(this)">9</button>
+                <button onclick="add(this)">0</button>
+                <button onclick="point(this)"><b>.</b></button>   
+                <button onclick="power(this)">^</button>              
+                <button onclick="operator(this)">+</button>
+                <button onclick="operator(this)">-</button>
+                <button onclick="operator(this)">*</button>
+                <button onclick="operator(this)">/</button>
+                <button onclick="operator(this)">%</button>
+                <button onclick="power(this)">x<sup>2</sup></button>
+                <button onclick="power(this)">x<sup>3</sup></button>
+                <button onclick="pi()">PI</button>
+                <button onclick="result(this)">C</button>                
+                <button onclick="back()"><img src="img/c.png" alt="c"/></button>                 
+                <button onclick="one()">1/x</button>
+                <button onclick="result(this)">=</button>                
+            </div>        
+        <script src="js/cal.js"></script>
+    </body>
+</html>
