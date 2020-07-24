@@ -1,0 +1,133 @@
+body
+{
+    color:black !important; 
+    font-family:Calibri !important; 
+}
+
+.container hr:first-child
+{
+    border: 1px solid black;
+    margin:130px 2px 2px;
+}
+
+.container hr
+{
+    border: 3px solid black;
+    margin : 2px; 
+}
+
+img
+{
+    width: auto; 
+    height: 200px;
+    float: right; 
+    margin-right: 16px !important;
+    margin-top: 25px !important;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+h1
+{
+    font-size:42px !important;  
+    padding-left: 3px !important;
+    font-weight: 600 !important;
+    margin: 15px 0 !important;
+}
+
+ul
+{
+    background-color: white !important;
+    border: none !important;
+    margin-bottom: 45px !important;
+    font-size:167% !important;  
+    padding-left: 5px !important;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: underline !important;
+    color: #0000FF !important;   
+}
+
+h2
+{  
+    padding-left: 7px !important;
+    font-size:32px !important;
+    font-weight: 600 !important;
+    margin-top: 5px !important;
+}
+
+.obj 
+{  
+    font-size:26px !important;
+    padding-left:46px !important;
+    border:none !important;
+    background-color: white !important;
+    font-family:Calibri !important; 
+    margin-top: -3px !important;
+    margin-bottom:44px;
+}
+
+.belowobj
+{
+    border: 2px solid black !important;
+    margin-bottom: 7px !important;
+}
+
+.edu
+{  
+    padding-left: 5px !important;
+}
+
+
+pre
+{
+    background-color:white !important;
+    border: 0 !important;
+    color: black !important;
+    font-family: calibri !important;
+    line-height:0.7 !important;
+    margin: 0 !important;
+    padding-left: 1px !important;
+}
+    
+ol
+{
+    background-color: white !important;
+    border: none !important;
+    margin-bottom: 45px !important;
+    font-size:167% !important;  
+    padding-left: 30px !important;
+    list-style-type: decimal;
+}
+
+.work
+{
+    padding-left:6px !important;
+}
+
+.links
+{
+    list-style-type:disc !important;
+}
+
+.links a
+{
+    text-decoration: none !important;
+}
+
+.l
+{
+    list-style-type:disc !important;
+}
+
+.l a
+{
+    text-decoration:underline !important;
+}
+
+.container hr:last-child
+{
+    border: 1px solid black;
+    margin-bottom:250px;
+}
