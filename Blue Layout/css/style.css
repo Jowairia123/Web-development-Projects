@@ -1,0 +1,21 @@
+
+.content
+{
+    width:100%;    
+    color:white;        
+    margin-top:36px !important;
+}
+    
+span
+{
+    color:#4F4EC9;
+}
+
+.active
+{
+    color:#4F4EC9 !important;
+    background-color: transparent !important;
+    font-weight: 600;
+}
+
+

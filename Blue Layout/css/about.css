@@ -1,0 +1,31 @@
+.c
+{
+    margin-top:100px;
+    margin-left:-60px;
+}
+
+.c div
+{    
+    width:335px;
+    text-align: center; 
+    float:left;
+    margin-left:60px;
+}
+
+.c h4
+{
+    font-size:22px;
+    font-family: calibri;
+}
+
+.c p
+{
+    color:#777;
+    font-size:17px;
+    font-family: calibri; 
+}
+
+img
+{
+    margin-right:14px;
+}
